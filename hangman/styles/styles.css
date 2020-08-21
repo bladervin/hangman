@@ -1,0 +1,75 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */
+
+body{
+    background: #2B292E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.center{
+    margin: auto;
+    width: 40%;
+    border: 3px solid lightcoral;
+    padding: 50px;
+    position: relative;
+    top: 10px;
+}
+
+h1{
+    color: goldenrod;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: 50px;
+}
+
+#puzzle {
+    display: flex;
+    margin-bottom: 3.2rem;
+    color: whitesmoke;
+    font-size: 18px;
+    position: relative;
+    left: 300px;
+}
+
+span {
+    border-bottom: 1px solid #534f59;
+    display: inline-block;
+    position: relative;
+    right: 210px;
+    font-size: 2rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0 .1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 2.4rem;
+}
+button {
+    position: relative;
+    left: 317px;
+    color: lightyellow;
+    background: lightseagreen;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 7px;
+    transition: background .3s ease, color .3s ease;
+
+}
+
+#reset:hover {
+    background: orange;
+}
+
+.warning {
+    font-size: 20px;
+    color: lightslategrey;
+    position: relative;
+    left: 300px;    
+}
